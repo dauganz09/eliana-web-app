@@ -5,7 +5,7 @@ import AI from '../../../images/aihead.png'
 import TypeAnimation from 'react-type-animation';
 import { RightSquareFilled } from '@ant-design/icons';
 
-const BASE_URL = "https://eliana-chatbot-app.herokuapp.com/"
+const BASE_URL = "https://chatbotapp-server.herokuapp.com/"
 
 const Chat = () => {
   const [toggle,setToggle] = useState(false)
